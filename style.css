@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'hanken' ;
+    src: url(fonts/HankenGrotesk-VariableFont_wght.ttf) format("truetype");
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: lightgrey;
+    padding-top: 50px;
+    font-family: 'hanken';
+}
+
+.container{
+    
+    max-width: 400px;
+    min-width: 400px;
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cx-azul{
+    height: 45%;
+    width: 400px;
+    background-image: linear-gradient(to bottom, rgb(86, 86, 253), rgb(28, 28, 172)  );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 30px 30px;
+
+    
+}
+
+.ball {
+    text-align: center;
+    width: 125px;
+    height: 125px;
+    background-image: linear-gradient(to bottom,rgb(81, 1, 255) ,rgba(32, 32, 203, 0.018) );
+    border-radius: 50%;
+    margin-bottom: 30px;
+    color: white;
+    text-align: 1em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.ball > h1{
+    font-size: 3.5em;
+}
+.ball > p{
+    color: rgba(255, 255, 255, 0.687);
+    
+}
+
+.title{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.687);
+    font-size: 1em;
+}
+
+.text{
+    width: 80%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.text > p{
+    color: rgba(255, 255, 255, 0.687)
+}
+
+.sumary{
+    color: rgb(37, 37, 91);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+table{
+    background-color: lightblue;
+    height: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 7px;
+    
+}
+
+
+a{
+    display: block;
+    
+}
+
+.let{
+    
+    
+}
+
+.num{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.icon{
+    padding-top: 7px;
+    padding-right: 8px;
+    text-align: right;
+}
+
