@@ -90,13 +90,15 @@ body{
 
 .sumary{
     color: rgb(37, 37, 91);
+    font-size: 1.2em;
     font-weight: bold;
     padding-top: 20px;
     padding-left: 20px;
+
 }
 
 table{
-    background-color: lightblue;
+    
     height: 50px;
     width: 90%;
     margin-left: auto;
@@ -113,19 +115,70 @@ a{
     
 }
 
+#tr1{
+    border-radius: 7px;
+    background-color: rgba(248, 100, 100, 0.226);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#tr2{
+    border-radius: 7px;
+    background-color: rgba(230, 194, 31, 0.226);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#tr3{
+    border-radius: 7px;
+    background-color: rgb(45, 187, 121, 0.226);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+#tr4{
+    border-radius: 7px;
+    background-color: rgba(54, 54, 173, 0.233);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
 .let{
-    
+    font-weight: bold;
     
 }
 
+#verme{
+    color: rgba(248, 100, 100, 0.856);
+}
+
+#amare{
+    color: rgba(230, 194, 31, 0.877);
+}
+
+#verde{
+    color: rgb(45, 187, 121);
+}
+
+#azul{
+    color: rgb(54, 54, 173);
+}
+
 .num{
+    font-weight: bold;
     text-align: right;
     padding-right: 20px;
+    border-radius: 0px 7px 7px 0px;
 }
 
 .icon{
     padding-top: 7px;
     padding-right: 8px;
     text-align: right;
+    border-radius:7px 0px 0px 7px;
 }
 
