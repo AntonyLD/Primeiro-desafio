@@ -4,9 +4,60 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
+
     body{
-        background-image: url(images/icon-reaction.svg);
+        
+    }
+
+    .container {
+        margin-top: 200px;
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        height: 500px;
+
+    }
+
+    .cx-azul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .cx-azul > p{
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .ball{
+
+        width: 220px;
+        height: 220px;
+
+    }
+
+    .sumary{
+
+    }
+    .tabela{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
         
     }
 }
